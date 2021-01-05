@@ -1,0 +1,308 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* margin for half-width part*/
+.margin-top-100{
+    margin-top: 100px;
+}
+
+
+header{
+    padding: 0 5%;
+    height: 500px;
+}
+nav{
+    width: 100%;
+}
+/* remove ul default style*/
+ul{
+    list-style: none;
+    padding: 20px 0;
+    margin: 0;
+    float: right;
+}
+ul li{
+    display: inline-block;
+}
+
+/* floating nav*/
+ul li a{
+    float: left;
+    text-transform: capitalize;
+    color: #3C3C3C;
+    text-decoration: none;
+    padding: 0 20px;
+}
+h1{
+    color: #363958;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 80px;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 0;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    color: #363958;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Bebas Neue', cursive;
+}
+
+/*both clear and height set for all section*/
+section{
+    clear: both;
+    min-height: 500px;
+}
+
+/*hedding  highlight*/
+.title-highlight {
+	color: #FF8367;
+    display: block;
+   
+}
+header p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #3E3E3E;
+}
+
+/*style linking button*/
+.link-button{
+    padding: 15px 32px;
+    display: inline-block;
+    border: none;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 4px;
+    background-image: linear-gradient(-45deg , blue , cyan);
+}
+
+/*set half width and float*/
+.half-width{
+    float: left;
+    width: 50%;
+    padding: 0 5%;
+}
+
+/*img resposive*/
+.half-width img{
+    width: 100%;
+
+}
+
+p{
+    color: dimgray;
+}
+.work{
+  padding:124px 7% 0  7%;
+}
+.work h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+}
+.work span{
+  display: inline;
+  color: #F46060;  
+}
+
+.work-area h3{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+}
+.work-area p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+
+/* singel recent work box style*/
+.single-work{
+    float: left;
+    width: 28%;
+    margin: 2%;
+    height: 50vh;
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+.single-work img{
+    width: 100%;
+}
+
+/*skils section*/
+.skils {
+	padding: 80px 7%;
+}
+.skils h2{
+    text-align: center;
+}
+.skils h3{
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+}
+.skils span{
+    margin-bottom: -20px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+}
+.single-skil{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.skils-section {
+	width: 60%;
+	margin: 0 auto;
+}
+
+/*set background for parsent container*/
+.fill{
+    width: 100%;
+    height: 11px;
+    background:linear-gradient(to left, #F86C61,#F9C061);
+    border-radius: 3px;
+}
+
+/*photoshop skil parsent*/
+.parsent{
+    width: 45%;
+    height: 11px;
+    background: linear-gradient(to left, #5D69E9 , #F46060 );
+    border-radius: 4px;
+}
+
+/*css skil parsent*/
+.parsent.css{
+    width: 55%;
+}
+
+/*html skil parsent*/
+.parsent.html{
+    width: 65%;
+}
+
+/* contact section */
+.contact{
+    padding: 100px 0 0 0;
+}
+
+/*Work Inquiry and chat link set*/
+.chat {
+    border-radius: 20px;
+    width: 50%;
+	height: 200px;
+	margin: 100px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 80px;
+	background: url('images/chat-bg-left.png') no-repeat -18% 30%, url('images/chat-bg-1.png') no-repeat 90% -60%, url('images/chat-bg-2.png') no-repeat 50% 150%, linear-gradient(138.38deg, #5D69E9 -7.79%, #4225B6 98.72%);
+}
+.contact h2{
+    text-align: center;
+}
+.chat h2{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+}
+.form-message{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*form input and textarea*/
+input, textarea {
+    width: 100% ;
+	color: #586260;
+	margin: 20px auto;
+	display: block;
+    padding: 15px 20px;
+    border: none;
+	border-left: 5px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+    border-radius: 4px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,.5);
+}
+
+/*form submit button*/
+button.link-button{
+    text-align: center;
+    margin: 40px auto;
+    display: block;
+    cursor: pointer;
+}
+footer{
+    position: relative;
+    text-align: center;
+    margin-bottom:20px ;
+}
+footer h2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #696871;
+}
+
+/* style for  send email */
+footer a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #363958;
+    text-decoration: none;
+}
+footer .social-icon{
+    margin-top: 20px;
+}
+footer .social-icon img{
+    width: 40px;
+    height: 40px;
+    margin: 0 12px;
+}
+footer p{
+    font-size: 20px;
+    color: #000;
+}
+
+/* style for copyright simbole*/
+footer p span{
+    display: inline-block ;
+    font-size: 30px;
+    vertical-align: middle;
+    color: #06911b;
+}
+
+/* highlight copyright author*/
+.text-highlight{
+    color: #F46060;
+
+}
